@@ -18,8 +18,8 @@ int main() {
                 int ans = x + y;
                 printf("[*] ROUND %d\n%d + %d = ?\n", i+1, x, y);
                 printf("> ");
-                scanf("%d %d", &u, &v);
-                if(u + v == ans) {
+                scanf("%d", &u);
+                if(u == ans) {
                         printf("right!\n");
                 } else {
                         printf("wrong\n");
